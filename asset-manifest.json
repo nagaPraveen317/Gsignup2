@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gsignup2/static/css/main.7df594e3.css",
+    "main.js": "/Gsignup2/static/js/main.3bb878f7.js",
+    "index.html": "/Gsignup2/index.html",
+    "main.7df594e3.css.map": "/Gsignup2/static/css/main.7df594e3.css.map",
+    "main.3bb878f7.js.map": "/Gsignup2/static/js/main.3bb878f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7df594e3.css",
+    "static/js/main.3bb878f7.js"
+  ]
+}
