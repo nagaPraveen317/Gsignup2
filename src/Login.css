@@ -1,0 +1,69 @@
+body {
+  /*background-image: url('log1.jpg'); /* Set background image */
+  background-size: 100%;
+  display: flex;
+  justify-content: center; /* Center the login box horizontally */
+  align-items: center; /* Center the login box vertically */
+  height: 100vh; /* Make the body fill the entire viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+
+}
+
+.login-box {
+  width: 400px; /* Set desired width */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(17, 1, 55, 0.1); /* Add a shadow for depth */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Add spacing between form groups */
+}
+
+label {
+  font-size: 16px; /* Set label font size */
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Make input fields full width */
+  padding: 8px; /* Add padding for spacing */
+  font-size: 16px; /* Set input text size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+button.button1 {
+  width: 100%; /* Make button full width */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Set button text size */
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+button.button1:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+.Ltitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+.sublog{
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 10%;
+  color:white;
+ padding: 3%;
+  padding-left: 10%;
+  text-align: center;
+  padding-right: 10%;
+}

@@ -1,0 +1,62 @@
+body {
+  /*background-image: url('sign2.jpg'); Set background image */
+  background-size: 70%; /* Cover the entire body with the background image */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set height to fill the viewport */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.signup-box {
+  width: 400px; /* Set desired width */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 5px rgba(17, 1, 55, 0.1); /* Add a shadow for depth */
+
+}
+
+.form-group {
+  margin-bottom: 15px; /* Add spacing between form groups */
+  
+}
+
+label {
+  font-size: 125px; /* Set label font size */
+  font-weight: bold;
+  display:inline-block
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 85%; /* Make input fields full width */
+  padding: 8px; /* Add padding for spacing */
+  font-size: 16px; /* Set input text size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+button.button1 {
+  width: 100%; /* Make button full width */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Set button text size */
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+button.button1:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
